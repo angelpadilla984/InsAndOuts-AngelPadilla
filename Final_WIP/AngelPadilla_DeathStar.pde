@@ -1,0 +1,97 @@
+//Death Star Design by Angel Padilla
+
+//So in this Processing sketch, I essentially wanted to create a black 
+//background with ellipses everywhere in order to replicate stars in space.
+//Then from there, I wanted to make an ellipse big enough to resemble the 
+//Death Star from Star Wars and have that ellipse be an interactable shape
+//that the user can mess around with.
+
+void setup() {
+size(600, 600);
+background(0, 0, 0);
+
+
+}
+void draw() {
+color a = color (255, 255, 255);
+fill(a);
+noStroke();
+  ellipse(300, 564, 5, 5);
+  ellipse(100, 33, 5, 5);
+  ellipse(85, 453, 5, 5);
+  ellipse(43, 121, 5, 5);
+  ellipse(57, 43, 5, 5);
+  ellipse(32, 67, 5, 5);
+  ellipse(38, 86, 5, 5);
+  ellipse(555, 324, 5, 5);
+  ellipse(324, 24, 5, 5);
+  ellipse(12, 46, 5, 5);
+  ellipse(343, 321, 5, 5);
+  ellipse(158, 25, 5, 5);
+  ellipse(356, 23, 5, 5);
+  ellipse(85, 543, 5, 5);
+  ellipse(33, 427, 5, 5);
+  ellipse(78, 324, 5, 5);
+  ellipse(388, 532, 5, 5);
+  ellipse(463, 245, 5, 5);
+  ellipse(264, 538, 5, 5);
+  ellipse(106, 46, 5, 5);
+  ellipse(46, 36, 5, 5);
+  ellipse(36, 26, 5, 5);
+  ellipse(86, 16, 5, 5);
+  ellipse(99, 79, 5, 5);
+  ellipse(56, 80, 5, 5);
+  ellipse(56, 46, 5, 5);
+  ellipse(58, 206, 5, 5);
+  ellipse(68, 106, 5, 5);
+  ellipse(58, 173, 5, 5);
+  ellipse(78, 152, 5, 5);
+  ellipse(232, 78, 5, 5);
+  ellipse(232, 16, 5, 5);
+  ellipse(272, 18, 5, 5);
+  ellipse(302, 20, 5, 5);
+  ellipse(322, 38, 5, 5);
+  ellipse(342, 58, 5, 5);
+  ellipse(176, 48, 5, 5);
+  ellipse(421, 555, 5, 5);
+  ellipse(164, 241, 5, 5);
+  ellipse(99, 333, 5, 5);
+  ellipse(232, 521, 5, 5);
+  ellipse(521, 196, 5, 5);
+  ellipse(131, 87, 5, 5);
+  ellipse(313, 26, 5, 5);
+  ellipse(532, 99, 5, 5);
+  ellipse(287, 172, 5, 5);
+  ellipse(136, 456, 5, 5);
+  ellipse(598, 432, 5, 5);
+  ellipse(141, 331, 5, 5);
+  ellipse(513, 186, 5, 5);
+  ellipse(21, 381, 5, 5);
+  ellipse(415, 525, 5, 5);
+  ellipse(464, 280, 5, 5);
+  ellipse(158, 252, 5, 5);
+  ellipse(451, 588, 5, 5);
+  ellipse(294, 566, 5, 5);
+  ellipse(564, 50, 5, 5);
+  ellipse(590, 60, 5, 5);
+  ellipse(363, 70, 5, 5);
+  ellipse(362, 80, 5, 5);
+  
+//A lot of ellipses I know but this is what got the scattered stars in 
+//space to work and to be honest I really like this aesthetic. Might add
+//more stars in the future.
+  
+color b = color(169, 169, 169);
+fill(b);
+ellipse(mouseX, 200, 200, 200);
+
+//I drew teh Death Star successfully yet my only issue is that when I do 
+//the mouseX function, the Death Star ellipse seems to overlap the sketch. I 
+//obviously know that it's under void draw, so I tried to do it under void
+//setup and the mouseX function doesn't seem to be working at all. This is 
+//only a matter of time until I set up the Arduino to allow the Potentiometer
+//to interact with the sketch as well as the stars and background changing
+//from pressing the push button. I'm motivated now more than ever to get this
+//done.
+
+}
